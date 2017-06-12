@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Hello World!</p>
+
+<p class="intro">The DOM is very useful.</p>
+<p class="intro">This example demonstrates the <b>getElementsByClassName</b> method.</p>
+
+<p id="demo"></p>
+
+<script>
+var x = document.getElementsByClassName("intro");
+document.getElementById("demo").innerHTML = 
+'The 2nd paragraph (index 1) with class="intro": ' + x[1].innerHTML;
+</script>
+
+</body>
+</html>
+
